@@ -1,0 +1,48 @@
+.nav-menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+/* .nav-menu span{
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+} */
+body{
+    font-family: 'Montserrat', sans-serif;
+    -webkit-font-smoothing: subpixel-antialiased;
+    background: url('./tumblr_pbwai40r3F1udtjd7o1_1280.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+span{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    /* width:100%;
+    display: block; */
+}
+span:hover{
+    background-color: #111;
+}
+#div-center{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 60%;
+    -ms-transform: translate(-60%, -60%);
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+}
+#image-left{
+    height: 50%;
+    width: 50%;
+    float: left;
+}
