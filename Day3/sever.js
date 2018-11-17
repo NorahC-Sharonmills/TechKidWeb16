@@ -17,7 +17,7 @@ app.get('/', (request, response) => {
 
 app.get('/view/web16.html', (request, response) => {
     axios.get('https://btvn-web16s.herokuapp.com/api/web16').then(function(res){
-        let temp00;
+        let temp00 = "";
         res.data.students.forEach(element => {
             temp00 += '<li>' + element + '</li>';
         });
@@ -30,7 +30,7 @@ app.get('/view/web16.html', (request, response) => {
 
 app.get('/view/web15.html', (request, response) => {
     axios.get('https://btvn-web16s.herokuapp.com/api/web15').then(function(res){
-        let temp00;
+        let temp00 = "";
         res.data.students.forEach(element => {
             temp00 += '<li>' + element + '</li>';
         });
@@ -43,7 +43,7 @@ app.get('/view/web15.html', (request, response) => {
 
 app.get('/view/web14.html', (request, response) => {
     axios.get('https://btvn-web16s.herokuapp.com/api/web14').then(function(res){
-        let temp00;
+        let temp00 = "";
         res.data.students.forEach(element => {
             temp00 += '<li>' + element + '</li>';
         });
@@ -56,7 +56,7 @@ app.get('/view/web14.html', (request, response) => {
 
 app.get('/view/web13.html', (request, response) => {
     axios.get('https://btvn-web16s.herokuapp.com/api/web13').then(function(res){
-        let temp00;
+        let temp00 = "";
         res.data.students.forEach(element => {
             temp00 += '<li>' + element + '</li>';
         });
@@ -69,7 +69,7 @@ app.get('/view/web13.html', (request, response) => {
 
 app.get('/view/web12.html', (request, response) => {
     axios.get('https://btvn-web16s.herokuapp.com/api/web12').then(function(res){
-        let temp00;
+        let temp00 = "";
         res.data.students.forEach(element => {
             temp00 += '<li>' + element + '</li>';
         });
@@ -82,7 +82,7 @@ app.get('/view/web12.html', (request, response) => {
 
 app.get('/view/web11.html', (request, response) => {
     axios.get('https://btvn-web16s.herokuapp.com/api/web11').then(function(res){
-        let temp00;
+        let temp00 = "";
         res.data.students.forEach(element => {
             temp00 += '<li>' + element + '</li>';
         });
@@ -95,7 +95,7 @@ app.get('/view/web11.html', (request, response) => {
 
 app.get('/view/web10.html', (request, response) => {
     axios.get('https://btvn-web16s.herokuapp.com/api/web10').then(function(res){
-        let temp00;
+        let temp00 = "";
         res.data.students.forEach(element => {
             temp00 += '<li>' + element + '</li>';
         });
